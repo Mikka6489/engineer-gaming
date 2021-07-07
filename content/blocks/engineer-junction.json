@@ -1,0 +1,12 @@
+{
+  "type": "Junction",
+  "name": "Engineer junction",
+  "description": "An engineer gaming junction.",
+  "health": 350,
+  "requirements": [
+      {"item": "engineer", "amount": 1},
+  ],
+  "category": "distribution",
+  "speed": 1,
+  "research": "engineer-conveyor"
+}

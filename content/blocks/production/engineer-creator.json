@@ -1,0 +1,36 @@
+{
+"type": "AttributeSmelter",
+"name": "Engineer Creator",
+"description": "Make engineer gaming.",
+"size": 3,
+"outputItem": {"item": "engineer", "amount": 1},
+"hasPower": true,
+"hasItems": true,
+"itemCapacity": 100,
+"craftTime": 120,
+"baseEfficiency": 1.0,	
+"boostScale": 0.25,
+"updateEffect": "smeltsmoke",
+"drawLiquidLight" : true,
+"consumes": {
+  "power": 1,
+  "items": {
+    "items": [
+      {"item": "copper", "amount": 20},
+      {"item": "silicon", "amount": 10},
+      {"item": "lead", "amount": 35},
+      {"item": "metaglass", "amount": 10},
+    ]
+  }
+},
+"requirements": [
+  {"item": "metaglass", "amount": 75},
+  {"item": "titanium", "amount": 100},
+  {"item": "copper", "amount": 60},
+  {"item": "lead", "amount": 40},
+],
+"category": "crafting",
+"research": "mechanical-drill",
+"idleSound": "respawning",
+"idleSoundVolume": 0.5
+}

@@ -1,0 +1,11 @@
+{
+"type": "material",
+"name": "Engineer Gaming",
+"description": "engineer gaming" ,
+"hardness": 1,
+"cost": 5,
+"color": "ff0000",
+"radioactivity": "40",
+"explosiveness": "10",
+"flammability": "70"
+}

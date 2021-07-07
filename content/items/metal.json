@@ -1,0 +1,11 @@
+{
+"type": "material",
+"name": "Engineer Metal",
+"description": "engineer metal" ,
+"hardness": 1,
+"cost": 10,
+"color": "989aa4",
+"radioactivity": "0",
+"explosiveness": "60",
+"flammability": "20"
+}

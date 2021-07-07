@@ -1,0 +1,11 @@
+name: Engineer Wall
+description: Engineer Wall.
+type: Wall
+buildCostMultiplier: 0.01
+health: 4000
+size: 1
+requirements: [
+  engineer/24
+]
+category: defense
+research: engineer-creator
