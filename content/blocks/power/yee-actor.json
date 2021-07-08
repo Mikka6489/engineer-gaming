@@ -1,0 +1,42 @@
+{
+	"type": "ImpactReactor",
+	"name": "Yee-actor",
+	"description": "Consumes Fuel to generate power. Needs no other input.",
+	"health": 480,
+	"size": 3,
+	"buildCostMultiplier": 5,
+	"itemCapacity": 10,
+	"liquidCapacity": 40,
+	"itemDuration": 80,
+	"warmupSpeed": 0.005,
+	"explosionRadius": 1,
+	"explosionDamage": 0,
+	"powerProduction": 28,
+	"plasmas": 3,
+	"hasPower": true,
+	"hasLiquid": true,
+	"consumes": {
+		"power": 2,
+		"liquid": {
+			"liquid": "oil",
+			"amount": 0.0668
+		}
+	},
+    "requirements": [{
+		"item": "engineer",
+		"amount": 120
+	}{
+		"item": "graphite",
+		"amount": 320
+	}
+		{
+			"item": "copper",
+			"amount": 560
+		}{
+			"item": "metaglass",
+			"amount": 180
+		}
+	],
+	"category": "power",
+	"research": "thermal-generator",
+}
