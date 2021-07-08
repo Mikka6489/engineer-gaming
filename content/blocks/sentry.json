@@ -41,8 +41,7 @@
 "requirements": [
   { "item": "titanium", "amount": 100 },
   { "item": "silicon", "amount": 40 },
-  { "item": "engineer", "amount": 30 },
-  { "item": "metal", "amount": 130 },
+  { "item": "engineer", "amount": 30 }, 
 ],
 "category": "turret",
 "research": "metal-smelter"
