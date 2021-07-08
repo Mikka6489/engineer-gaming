@@ -18,7 +18,7 @@
 	"consumes": {
 		"power": 2,
 		"liquid": {
-			"liquid": "oil",
+			"liquid": "slag",
 			"amount": 0.0668
 		}
 	},
@@ -38,5 +38,5 @@
 		}
 	],
 	"category": "power",
-	"research": "thermal-generator",
+	"research": "engineer-creator",
 }
