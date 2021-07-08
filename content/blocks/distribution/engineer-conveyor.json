@@ -1,13 +1,13 @@
 {
   "type": "Conveyor",
-  "name": "Engineer  Conveyor",
-  "description": "An engineer gaming conveyor.",
+  "name": "Teleporter",
+  "description": "Teleports items at an incredible speed. (Disclaimer: Dosen't actually teleport.)",
   "health": 350,
   "requirements": [
       {"item": "engineer", "amount": 1},
       {"item": "copper", "amount": 1},
 	  {"item": "lead", "amount": 1},
-	  {"item": "silicon", "amount": 1},
+	  {"item": "silicon", "amount": 1}
   ],
   "category": "distribution",
   "speed": 1,

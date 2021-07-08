@@ -1,7 +1,7 @@
 {
 "type": "AttributeSmelter",
-"name": "Engineer Creator",
-"description": "Make engineer gaming.",
+"name": "Dispenser",
+"description": "Make the purest form of Engineer Gaming conceived.",
 "size": 3,
 "outputItem": {"item": "engineer", "amount": 1},
 "hasPower": true,
@@ -19,7 +19,7 @@
       {"item": "copper", "amount": 20},
       {"item": "silicon", "amount": 10},
       {"item": "lead", "amount": 35},
-      {"item": "metaglass", "amount": 10},
+      {"item": "metaglass", "amount": 10}
     ]
   }
 },
@@ -27,7 +27,7 @@
   {"item": "metaglass", "amount": 75},
   {"item": "titanium", "amount": 100},
   {"item": "copper", "amount": 60},
-  {"item": "lead", "amount": 40},
+  {"item": "lead", "amount": 40}
 ],
 "category": "crafting",
 "research": "mechanical-drill",

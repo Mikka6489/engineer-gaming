@@ -1,7 +1,7 @@
 {
 	"type": "ItemTurret",
 	"name": "Sentry",
-	"description": "Engineer Sentry"
+	"description": "A state of the art Sentry gun, The Engineer's signature weapon."
 	"size": 2,
 	"health": 150,
 	"reloadTime": 14,
@@ -28,8 +28,8 @@
 "requirements": [
   { "item": "titanium", "amount": 100 },
   { "item": "silicon", "amount": 40 },
-  { "item": "engineer", "amount": 70 },
+  { "item": "engineer", "amount": 70 }
 ],
 "category": "turret",
-"research": "metal-smelter"
+"research": "engineer-creator"
 }
