@@ -12,19 +12,6 @@
 	"rotateSpeed": 20,
 	
 	"ammoTypes": {
-		"metal": {
-			"type" : "BasicBulletType",
-			"damage": 140,
-      			"splashDamageRadius": 12,
-     			"splashDamage": 18,
-			"height": 12,
-			"width" : 8,			
-			"speed": 8,
-			"pierce": true,
-			"lifetime": 50,
-			"ammoMultiplier": 4,
-			"smokeEffect": "shootSmallSmoke"
-			},
 		"engineer": {
 			"type" : "BasicBulletType",
 			"damage": 84,
@@ -41,7 +28,7 @@
 "requirements": [
   { "item": "titanium", "amount": 100 },
   { "item": "silicon", "amount": 40 },
-  { "item": "engineer", "amount": 30 }, 
+  { "item": "engineer", "amount": 70 },
 ],
 "category": "turret",
 "research": "metal-smelter"
