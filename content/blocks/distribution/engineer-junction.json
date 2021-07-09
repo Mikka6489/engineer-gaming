@@ -1,12 +1,13 @@
 {
   "type": "Junction",
   "name": "Engineer junction",
-  "description": "An engineer gaming junction.",
+  "description": "An extremely fast junction cabable of handling the speed of Conveyor teleporters speed",
   "health": 350,
   "requirements": [
       {"item": "engineer", "amount": 1}
+      {"item": "silicon", "amount": 2}
   ],
   "category": "distribution",
-  "speed": 1,
+  "speed": 1.2,
   "research": "engineer-conveyor"
 }

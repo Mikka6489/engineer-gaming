@@ -1,11 +1,12 @@
 {
 "type": "material",
 "name": "Engineer Gaming",
-"description": "Pure Engineer Gaming produced from Dispensers." ,
+"description": "Engineer Gaming" ,
 "hardness": 1,
 "cost": 5,
-"color": "ff0000",
-"radioactivity": "40",
-"explosiveness": "10",
-"flammability": "70"
+"size": 1,
+"color": "bc5452",
+"radioactivity": "4",
+"explosiveness": "1",
+"flammability": "9"
 }

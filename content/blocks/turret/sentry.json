@@ -1,11 +1,11 @@
 {
 	"type": "ItemTurret",
 	"name": "Sentry",
-	"description": "A state of the art Sentry gun, The Engineer's signature weapon."
+	"description": "How am I going to stop some big mean mother hubbard from tearing me a structurally superfluous new behind? The answer: use a gun. And if that don't work... use more gun."
 	"size": 2,
-	"health": 150,
+	"health": 450,
 	"reloadTime": 14,
-	"maxAmmo": 100,
+	"maxAmmo": 30,
 	"range": 225,
 	"shootSound" : "pew",
 	"lifetime": 3,
@@ -19,16 +19,17 @@
 			"width" : 8,			
 			"speed": 8,
 			"lifetime": 50,
-			"homingPower": 0.2,
-			"ammoMultiplier": 2,	
+			"homingPower": 0.4,
+			"ammoMultiplier": 4,	
 			"smokeEffect": "shootSmallSmoke"
 		}
 	},
 		
 "requirements": [
+  { "item": "graphite", "amount": 130 },
   { "item": "titanium", "amount": 100 },
-  { "item": "silicon", "amount": 40 },
-  { "item": "engineer", "amount": 70 }
+  { "item": "silicon", "amount": 45 },
+  { "item": "engineer", "amount": 85 }
 ],
 "category": "turret",
 "research": "engineer-creator"
