@@ -1,7 +1,7 @@
 {
   "type": "Junction",
-  "name": "Engineer junction",
-  "description": "An extremely fast junction cabable of handling the speed of Conveyor teleporters speed",
+  "name": "Engineer Junction",
+  "description": "An extremely fast junction cabable of handling the speed of Conveyor teleporters speed.",
   "health": 350,
   "requirements": [
       {"item": "engineer", "amount": 1}
