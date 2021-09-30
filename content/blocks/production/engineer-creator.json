@@ -1,7 +1,7 @@
 {
 "type": "AttributeSmelter",
-"name": "Dispenser",
-"description": "Make the purest form of Engineer Gaming conceived.",
+"name": "Engineer Dispenser",
+"description": "Makes the purest form of Engineer Gaming ever conceived.",
 "size": 3,
 "outputItem": {"item": "engineer", "amount": 1},
 "hasPower": true,
@@ -9,25 +9,26 @@
 "itemCapacity": 100,
 "craftTime": 120,
 "baseEfficiency": 1.0,	
-"boostScale": 0.25,
+"boostScale": 0.45,
 "updateEffect": "smeltsmoke",
 "drawLiquidLight" : true,
 "consumes": {
-  "power": 1,
+  "power": 5,
   "items": {
     "items": [
-      {"item": "copper", "amount": 20},
-      {"item": "silicon", "amount": 10},
-      {"item": "lead", "amount": 35},
-      {"item": "metaglass", "amount": 10}
+      {"item": "sand", "amount": 12},
+      {"item": "silicon", "amount": 6},
+      {"item": "titanium", "amount": 8},
+      {"item": "graphite", "amount": 6}
     ]
   }
 },
 "requirements": [
   {"item": "metaglass", "amount": 75},
-  {"item": "titanium", "amount": 100},
-  {"item": "copper", "amount": 60},
-  {"item": "lead", "amount": 40}
+  {"item": "titanium", "amount": 140},
+  {"item": "silicon", "amount": 110},
+  {"item": "graphite", "amount": 225},
+  {"item": "lead", "amount": 65}
 ],
 "category": "crafting",
 "research": "mechanical-drill",

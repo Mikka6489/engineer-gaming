@@ -1,17 +1,17 @@
 type: Conduit
-health: 1500
+health: 150
 name: Liquid Teleporter
+description: Moves liquid at such an incredible speed it might aswell have been teleported.
 solid: true
 floating: true
 liquidCapacity: 20
 liquidPressure: 2
 buildCostMultiplier: 0.5
-description: Teleports liquid at an incredible speed.
 requirements: [
-  metaglass/4
-  graphite/4
+  metaglass/3
+  graphite/2
   silicon/1
-  engineer/1
+  engineer/2
 ]
 category: liquid
 research: engineer-conveyor

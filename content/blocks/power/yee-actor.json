@@ -1,25 +1,24 @@
 {
 	"type": "ImpactReactor",
 	"name": "Yee-actor",
-	"description": "Consumes Fuel to generate power. Needs no other input.",
+	"description": "Consumes slag to generate power. Needs no other input.",
 	"health": 480,
 	"size": 3,
-	"buildCostMultiplier": 5,
-	"itemCapacity": 10,
+	"buildCostMultiplier": 0.7,
 	"liquidCapacity": 40,
-	"itemDuration": 80,
-	"warmupSpeed": 0.005,
-	"explosionRadius": 1,
-	"explosionDamage": 0,
-	"powerProduction": 28,
+	"itemDuration": 60,
+	"warmupSpeed": 0.004,
+	"explosionRadius": 10,
+	"explosionDamage": 400,
+	"powerProduction": 36,
 	"plasmas": 3,
 	"hasPower": true,
 	"hasLiquid": true,
 	"consumes": {
-		"power": 2,
+		"power": 4,
 		"liquid": {
 			"liquid": "slag",
-			"amount": 0.0668
+			"amount": 0.1
 		}
 	},
     "requirements": [{
@@ -30,7 +29,7 @@
 		"amount": 320
 	}
 		{
-			"item": "copper",
+			"item": "lead",
 			"amount": 560
 		}{
 			"item": "metaglass",
