@@ -1,7 +1,7 @@
 {
 	"type": "ImpactReactor",
 	"name": "Yee-actor",
-	"description": "Consumes slag to generate power. Needs no other input.",
+	"description": "Consumes slag to generate power. Needs connection to power grid to function.",
 	"health": 480,
 	"size": 3,
 	"buildCostMultiplier": 0.7,

@@ -1,36 +1,46 @@
 {
 	"type": "ItemTurret",
 	"name": "Sentry",
-	"description": "How am I going to stop some big mean mother hubbard from tearing me a structurally superfluous new behind? The answer: use a gun. And if that don't work... use more gun."
+	"description": "How am I going to stop some big mean mother hubbard from tearing me a structurally superfluous new behind? The answer: use a gun. And if that don't work... use more gun.",
 	"size": 2,
 	"health": 450,
 	"reloadTime": 14,
 	"maxAmmo": 30,
-	"range": 225,
-	"shootSound" : "pew",
+	"range": 240,
+	"shootSound": "pew",
 	"lifetime": 3,
 	"rotateSpeed": 20,
-	
 	"ammoTypes": {
 		"engineer": {
-			"type" : "BasicBulletType",
+			"type": "BasicBulletType",
 			"damage": 84,
 			"height": 12,
-			"width" : 8,			
+			"width": 8,
 			"speed": 8,
 			"lifetime": 50,
 			"homingPower": 0.4,
-			"ammoMultiplier": 4,	
+			"ammoMultiplier": 4,
 			"smokeEffect": "shootSmallSmoke"
 		}
 	},
-		
-"requirements": [
-  { "item": "graphite", "amount": 130 },
-  { "item": "titanium", "amount": 100 },
-  { "item": "silicon", "amount": 45 },
-  { "item": "engineer", "amount": 85 }
-],
-"category": "turret",
-"research": "engineer-creator"
+
+	"requirements": [{
+			"item": "graphite",
+			"amount": 130
+		},
+		{
+			"item": "titanium",
+			"amount": 100
+		},
+		{
+			"item": "silicon",
+			"amount": 45
+		},
+		{
+			"item": "engineer",
+			"amount": 85
+		}
+	],
+	"category": "turret",
+	"research": "engineer-creator"
 }
