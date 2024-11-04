@@ -1,7 +1,7 @@
 {
   "type": "Junction",
-  "name": "Engineer Junction",
-  "description": "An extremely fast junction cabable of handling the speed of Conveyor teleporters speed.",
+  "name": "Hexite Junction",
+  "description": "An extremely fast junction capable of handling the speed of Teleporter Conveyors.",
   "health": 350,
   "requirements": [
       {"item": "engineer", "amount": 1}

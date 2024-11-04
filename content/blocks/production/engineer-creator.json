@@ -1,7 +1,7 @@
 {
 	"type": "GenericCrafter",
-	"name": "Engineer Creator",
-	"description": "Makes the purest form of Engineer Gaming ever conceived.",
+	"name": "Hexite Furnace",
+	"description": "Makes the purest form of Hexite ever conceived.",
 	"size": 3,
 	"outputItem": {
 		"item": "engineer",
@@ -21,7 +21,7 @@
 	"hasPower": true,
 	"hasItems": true,
 	"itemCapacity": 24,
-	"craftTime": 60,
+	"craftTime": 120,
 	"updateEffect": "smeltsmoke",
 	"drawLiquidLight": true,
 	"consumes": {
@@ -32,7 +32,7 @@
 					"amount": 12
 				},
 				{
-					"item": "silicon",
+					"item": "copper",
 					"amount": 6
 				},
 				{
@@ -57,11 +57,11 @@
 		},
 		{
 			"item": "graphite",
-			"amount": 225
+			"amount": 125
 		},
 		{
-			"item": "lead",
-			"amount": 85
+			"item": "copper",
+			"amount": 225
 		}
 	],
 	"category": "crafting",
