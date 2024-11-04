@@ -11,9 +11,8 @@
 	"explosionRadius": 10,
 	"explosionDamage": 400,
 	"powerProduction": 36,
-	"plasmas": 3,
 	"hasPower": true,
-	"hasLiquid": true,
+	"hasLiquids": true,
 	"consumes": {
 		"power": 4,
 		"liquid": {

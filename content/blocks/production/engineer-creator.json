@@ -9,10 +9,14 @@
 	},
 	"drawer": {
 		"type": "drawMulti",
-		"drawers": ["DrawDefault", {
-			"type": "DrawFlame",
-			"suffix": "-top"
-		}]
+		"drawers": [
+			{
+			"type": "drawDefault"
+			},
+			{
+			"type": "drawFlame"
+			}
+		]
 	},
 	"hasPower": true,
 	"hasItems": true,
@@ -42,10 +46,7 @@
 			]
 		}
 	},
-	"requirements": [{
-			"item": "metaglass",
-			"amount": 75
-		},
+	"requirements": [
 		{
 			"item": "titanium",
 			"amount": 140
@@ -60,11 +61,9 @@
 		},
 		{
 			"item": "lead",
-			"amount": 65
+			"amount": 85
 		}
 	],
 	"category": "crafting",
-	"research": "mechanical-drill",
-	"idleSound": "respawning",
-	"idleSoundVolume": 0.5
+	"research": "silicon-smelter"
 }

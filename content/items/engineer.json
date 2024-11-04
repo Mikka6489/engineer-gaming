@@ -1,12 +1,14 @@
 {
-"type": "material",
-"name": "Engineer Gaming",
-"description": "The purest form of Engineer Gaming ever, can be used for incredible power, item/liquid transport, or simply weapons." ,
-"hardness": 1,
-"cost": 5,
-"size": 1,
-"color": "bc5452",
-"radioactivity": "4",
-"explosiveness": "1",
-"flammability": "9"
+  "name": "Engineer",
+  "description": "The purest form of Engineer Gaming ever, can be used for incredible power, item/liquid transport, or simply weapons." ,
+  "hardness": 1,
+  "cost": 4,
+  "color": "ef806c",
+  "charge": "0.1",
+  "radioactivity": "0.3",
+  "explosiveness": "1",
+  "flammability": "0.7",
+  "research": {
+    "parent": "silicon"
+  }
 }

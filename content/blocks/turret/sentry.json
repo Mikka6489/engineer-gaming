@@ -4,11 +4,11 @@
 	"description": "How am I going to stop some big mean mother hubbard from tearing me a structurally superfluous new behind? The answer: use a gun. And if that don't work... use more gun.",
 	"size": 2,
 	"health": 450,
-	"reloadTime": 14,
+	"reload": 14,
 	"maxAmmo": 30,
 	"range": 240,
+	"shootX": -1.8,
 	"shootSound": "pew",
-	"lifetime": 3,
 	"rotateSpeed": 20,
 	"ammoTypes": {
 		"engineer": {
