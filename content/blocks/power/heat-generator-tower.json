@@ -1,0 +1,76 @@
+{
+	"type": "ImpactReactor",
+	"name": "Heat Generator Tower",
+	"description": "As long as the Furnace was lit, there was hope.",
+	"health": 1880,
+	"size": 5,
+	"squareSprite": false,
+	"buildCostMultiplier": 0.7,
+	"liquidCapacity": 40,
+	"itemDuration": 60,
+	"warmupSpeed": 0.002,
+	"explosionRadius": 10,
+	"explosionDamage": 400,
+	"powerProduction": 48,
+	"itemDuration": 15,
+	"hasPower": true,
+	"hasLiquids": true,
+	"consumes": {
+		"power": 4,
+		"items": {
+			"items": [
+				{
+					"item": "coal",
+					"amount": 1
+				}
+			]
+		}
+		"liquid": {
+			"liquid": "water",
+			"amount": 1.2
+		}
+	},
+  "drawer": {
+    "type": "drawMulti",
+    "drawers": [
+      {
+        "type": "drawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "drawPlasma",
+        "plasmas": 4
+      },
+      {
+        "type": "drawDefault"
+      },
+      {
+        "type": "drawGlowRegion"
+      }
+    ]
+  },
+    "requirements": [
+		{
+		"item": "graphite",
+		"amount": 220
+		},
+		{
+		"item": "lead",
+		"amount": 260
+		},
+		{
+		"item": "silicon",
+		"amount": 125
+		},
+		{
+		"item": "plastanium",
+		"amount": 160
+		},
+		{
+		"item": "engineer",
+		"amount": 120
+		}
+	],
+	"category": "power",
+	"research": "engineer-creator",
+}

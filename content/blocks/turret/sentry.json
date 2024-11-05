@@ -23,7 +23,6 @@
 			"smokeEffect": "shootSmallSmoke"
 		}
 	},
-
 	"requirements": [{
 			"item": "graphite",
 			"amount": 130

@@ -10,29 +10,32 @@
 	"warmupSpeed": 0.004,
 	"explosionRadius": 10,
 	"explosionDamage": 400,
-	"powerProduction": 36,
+	"powerProduction": 24,
 	"hasPower": true,
 	"hasLiquids": true,
 	"consumes": {
-		"power": 4,
+		"power": 2,
 		"liquid": {
 			"liquid": "slag",
-			"amount": 0.1
+			"amount": 0.4
 		}
 	},
-    "requirements": [{
+    "requirements": [
+		{
 		"item": "engineer",
 		"amount": 120
-	}{
-		"item": "graphite",
-		"amount": 320
-	}
+		},
 		{
-			"item": "lead",
-			"amount": 560
-		}{
-			"item": "metaglass",
-			"amount": 180
+		"item": "graphite",
+		"amount": 220
+		},
+		{
+		"item": "lead",
+		"amount": 160
+		},
+		{
+		"item": "metaglass",
+		"amount": 180
 		}
 	],
 	"category": "power",
