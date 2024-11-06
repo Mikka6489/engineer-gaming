@@ -1,9 +1,9 @@
 {
 	"type": "ImpactReactor",
-	"name": "Heat Generator Tower",
-	"description": "As long as the Furnace was lit, there was hope.",
-	"health": 1880,
-	"size": 5,
+	"name": "Generator Tower",
+	"description": "The Frost is Nigh!.",
+	"health": 1280,
+	"size": 4,
 	"squareSprite": false,
 	"buildCostMultiplier": 0.7,
 	"liquidCapacity": 40,
@@ -11,12 +11,12 @@
 	"warmupSpeed": 0.002,
 	"explosionRadius": 10,
 	"explosionDamage": 400,
-	"powerProduction": 68,
-	"itemDuration": 10,
+	"powerProduction": 40,
+	"itemDuration": 20,
 	"hasPower": true,
 	"hasLiquids": true,
 	"consumes": {
-		"power": 4,
+		"power": 3,
 		"items": {
 			"items": [
 				{
@@ -27,7 +27,7 @@
 		}
 		"liquid": {
 			"liquid": "water",
-			"amount": 1.2
+			"amount": 0.8
 		}
 	},
   "drawer": {
@@ -56,14 +56,14 @@
 		},
 		{
 		"item": "lead",
-		"amount": 260
+		"amount": 160
 		},
 		{
 		"item": "silicon",
 		"amount": 125
 		},
 		{
-		"item": "plastanium",
+		"item": "titanium",
 		"amount": 160
 		},
 		{
