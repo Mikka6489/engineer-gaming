@@ -3,12 +3,12 @@
   "name": "Teleporter Conveyor",
   "description": "Moves items at such an incredible speed it may as-well have been teleported. Moves around 60 items/second.",
   "health": 150,
+  "speed": 0.8,
   "requirements": [
       {"item": "engineer", "amount": 1},
       {"item": "lead", "amount": 2},
       {"item": "silicon", "amount": 1}
   ],
   "category": "distribution",
-  "speed": 0.8,
-  "research": "engineer-creator"
+  "research": "plastanium-conveyor"
 }

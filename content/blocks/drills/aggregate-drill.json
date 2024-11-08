@@ -1,0 +1,39 @@
+{
+    "type": "Drill",
+    "name": "Aggregate Drill",
+    "description": "Ever buy in bulk?",
+    "size": 2,
+    "tier": 0,
+    "drillTime": 44,
+    "liquidBoostIntensity": 1,
+    "warmupSpeed": 0.003,
+    "rotateSpeed": 9,
+    "consumes": {
+        "power": 1.2,
+        "liquid": {
+            "liquid": "water",
+            "amount": 0.4
+        }
+    },
+    "drawRim": true,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "itemCapacity": 20,
+    "requirements": [
+        {
+            "item": "lead",
+            "amount": 70
+        },
+        {
+            "item": "engineer",
+            "amount": 45
+        },
+        {
+            "item": "metaglass",
+            "amount": 60
+        }
+    ],
+    "category": "production",
+    "research": "laser-drill"
+}

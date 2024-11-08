@@ -1,0 +1,45 @@
+{
+	"type": "GenericCrafter",
+	"name": "Scrap Synthesizer",
+	"description": "Combines trace materials from sand into copper for further processing.",
+	"size": 2,
+	"outputItem": {
+		"item": "scrap",
+		"amount": 1
+	},
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"craftTime": 30,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.5,
+		"items": {
+			"items": [{
+					"item": "sand",
+					"amount": 3
+				},
+				{
+					"item": "copper",
+					"amount": 2
+				}
+			]
+		}
+	},
+	"requirements": [
+		{
+			"item": "titanium",
+			"amount": 140
+		},
+		{
+			"item": "graphite",
+			"amount": 125
+		},
+		{
+			"item": "lead",
+			"amount": 150
+		}
+	],
+	"category": "crafting",
+	"research": "pulverizer"
+}

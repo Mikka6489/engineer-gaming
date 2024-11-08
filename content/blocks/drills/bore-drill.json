@@ -1,0 +1,33 @@
+{
+    "type": "Drill",
+    "name": "Bore Drill",
+    "description": "A small drill for those pesky jobs.",
+    "size": 1,
+    "tier": 3,
+    "drillTime": 120,
+    "warmupSpeed": 0.05,
+    "rotateSpeed": 5,
+    "hardnessDrillMultiplier": 8,
+    "liquidBoostIntensity": 1,
+    "drawRim": true,
+    "drawMineItem": true,
+    "hasPower": true,
+    "hasLiquids": false,
+    "hasItems": true,
+    "itemCapacity": 10,
+    "consumes": {
+        "power": 0.55
+    },
+    "requirements": [
+        {
+            "item": "thorium",
+            "amount": 8
+        },
+        {
+            "item": "engineer",
+            "amount": 4
+        }
+    ],
+    "category": "production",
+    "research": "aggregate-drill"
+}

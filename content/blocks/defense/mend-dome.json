@@ -1,0 +1,52 @@
+{
+    "type": "MendProjector",
+    "name": "Mend Dome",
+    "description": "Rapidly repairs blocks in its vicinity.
+Phase fabric is an optional booster.",
+    "health": 465,
+    "size": 3,
+    "itemCapacity": 10,
+    "range": 200,
+    "reload": 150,
+    "baseColor": "#84f491",
+    "buildCostMultiplier": 0.8,
+    "healPercent": 35,
+    "phaseBoost": 0,
+    "phaseRangeBoost": 60,
+    "consumes": {
+        "power": 20,
+        "items": {
+        "optional": true,
+            "items": [
+                {
+                    "item": "phase-fabric",
+                    "amount": 2
+                }
+            ]
+        }
+    },
+    "requirements": [
+        {
+            "item": "copper",
+            "amount": 200
+        },
+        {
+            "item": "titanium",
+            "amount": 350
+        },
+        {
+            "item": "silicon",
+            "amount": 240
+        },
+        {
+            "item": "phase-fabric",
+            "amount": 120
+        },
+        {
+            "item": "plastanium",
+            "amount": 200
+        }
+    ],
+    "category": "effect",
+    "research": "mend-projector"
+}

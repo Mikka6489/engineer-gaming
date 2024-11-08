@@ -1,0 +1,76 @@
+{
+    "type": "GenericCrafter",
+    "name": "Coal Liquefier",
+    "description": "Liquefies coal to oil by using water and power. Taken from Heavy Armaments.",
+    "health": 440,
+    "size": 3,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 60,
+    "itemCapacity": 10,
+    "liquidCapacity" : 60,
+    "updateEffect": "oily",
+    "drawLiquidLight": true,
+    "outputLiquid": {
+        "liquid": "oil",
+        "amount": 0.3
+    },
+    "drawer": {
+      "type": "drawMulti",
+      "drawers": [
+        {
+          "type": "drawRegion",
+          "suffix": "-bottom"
+        },
+        {
+          "type": "drawLiquidTile",
+          "drawLiquid": "oil"
+        },
+        {
+          "type": "drawRegion",
+          "suffix": "-spinner",
+          "spinSprite": true,
+          "rotateSpeed": 3
+        },
+        {
+          "type": "drawDefault"
+        }
+      ]
+    },
+    "consumes": {
+        "power": 1.2,
+        "items": {
+            "items": [
+                {
+                    "item": "coal",
+                    "amount": 4
+                }
+            ]
+        },
+        "liquid": {
+            "liquid": "water",
+            "amount": 0.4
+        }
+    },
+    "requirements": [
+        {
+            "item": "graphite",
+            "amount": 120
+        },
+        {
+            "item": "titanium",
+            "amount": 135
+        },
+        {
+            "item": "metaglass",
+            "amount": 150
+        },
+        {
+            "item": "plastanium",
+            "amount": 85
+        }
+    ],
+    "category": "crafting",
+    "research": "oil-extractor"
+}

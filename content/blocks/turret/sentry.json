@@ -23,6 +23,12 @@
 			"smokeEffect": "shootSmallSmoke"
 		}
 	},
+  "consumes": {
+    "coolant": {
+      "amount": 0.2,
+      "optional": true
+    }
+  },
 	"requirements": [{
 			"item": "graphite",
 			"amount": 130

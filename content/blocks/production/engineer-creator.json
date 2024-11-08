@@ -32,10 +32,6 @@
 					"amount": 12
 				},
 				{
-					"item": "copper",
-					"amount": 6
-				},
-				{
 					"item": "titanium",
 					"amount": 8
 				},
@@ -52,7 +48,7 @@
 			"amount": 140
 		},
 		{
-			"item": "silicon",
+			"item": "thorium",
 			"amount": 110
 		},
 		{
@@ -60,7 +56,7 @@
 			"amount": 125
 		},
 		{
-			"item": "copper",
+			"item": "lead",
 			"amount": 225
 		}
 	],
