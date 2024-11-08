@@ -9,6 +9,7 @@
 	},
 	"hasPower": true,
 	"hasItems": true,
+        "buildCostMultiplier": 0.3,
 	"itemCapacity": 10,
 	"craftTime": 30,
 	"updateEffect": "smeltsmoke",
