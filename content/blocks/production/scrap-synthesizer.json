@@ -13,6 +13,17 @@
 	"itemCapacity": 10,
 	"craftTime": 30,
 	"updateEffect": "smeltsmoke",
+	"drawer": {
+		"type": "drawMulti",
+		"drawers": [
+			{
+			"type": "drawDefault"
+			},
+			{
+			"type": "drawFlame"
+			}
+		]
+	},
 	"consumes": {
 		"power": 1.5,
 		"items": {

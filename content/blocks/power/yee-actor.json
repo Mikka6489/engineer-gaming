@@ -13,6 +13,26 @@
 	"powerProduction": 24,
 	"hasPower": true,
 	"hasLiquids": true,
+	"drawer": {
+		"type": "drawMulti",
+		"drawers": [
+			{
+			"type": "drawRegion",
+			"suffix": "-bottom"
+			},
+			{
+			"type": "drawLiquidTile",
+			"drawLiquid": "slag"
+			},
+			{
+			"type": "drawPlasma",
+			"plasmas": 4
+			},
+			{
+			"type": "drawDefault"
+			}
+		]
+        },
 	"consumes": {
 		"power": 2,
 		"liquid": {

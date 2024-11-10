@@ -1,0 +1,52 @@
+{
+	"type": "ItemTurret",
+	"name": "Electro Wizard",
+	"description": "ITS WIZARD TIME MOTHER FFU",
+	"size": 4,
+	"buildVisibility": "hidden",
+	"health": 450,
+	"reload": 14,
+	"maxAmmo": 30,
+	"range": 240,
+	"shootX": -1.8,
+	"shootSound": "pew",
+	"rotateSpeed": 20,
+	"ammoTypes": {
+		"titanium": {
+			"type": "BasicBulletType",
+			"damage": 84,
+			"height": 12,
+			"width": 8,
+			"speed": 8,
+			"lifetime": 50,
+			"homingPower": 0.4,
+			"ammoMultiplier": 4,
+			"smokeEffect": "shootSmallSmoke"
+		}
+	},
+  "consumes": {
+    "coolant": {
+      "amount": 0.2,
+      "optional": true
+    }
+  },
+	"requirements": [{
+			"item": "graphite",
+			"amount": 130
+		},
+		{
+			"item": "titanium",
+			"amount": 100
+		},
+		{
+			"item": "silicon",
+			"amount": 45
+		},
+		{
+			"item": "engineer",
+			"amount": 85
+		}
+	],
+	"category": "turret",
+	"research": "engineer-creator"
+}
