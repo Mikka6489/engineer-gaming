@@ -1,13 +1,13 @@
 {
   "name": "Hexite",
-  "description": "The purest form of Hexane ever, can be used for incredible power, item/liquid transport, and weapons manufacturing.",
+  "description": "A form of pure Hexite, an unstable, charged and highly versatile material for use in item/liquid transport, and weapons manufacturing.",
   "hardness": 1,
   "cost": 4,
   "color": "ef806c",
-  "charge": "0.1",
-  "radioactivity": "0.3",
-  "explosiveness": "1",
-  "flammability": "0.7",
+  "charge": "0.5",
+  "radioactivity": "0.15",
+  "explosiveness": "0.75",
+  "flammability": "0",
   "research": {
     "parent": "silicon"
   }

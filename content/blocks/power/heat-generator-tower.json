@@ -6,24 +6,16 @@
 	"size": 5,
 	"squareSprite": false,
 	"buildCostMultiplier": 0.7,
-	"liquidCapacity": 40,
-	"itemDuration": 60,
+	"liquidCapacity": 100,
 	"warmupSpeed": 0.002,
-	"explosionRadius": 10,
-	"explosionDamage": 400,
 	"powerProduction": 68,
 	"itemDuration": 10,
 	"hasPower": true,
 	"hasLiquids": true,
 	"consumes": {
 		"power": 4,
-		"items": {
-			"items": [
-				{
-					"item": "coal",
-					"amount": 1
-				}
-			]
+		"itemFlammable": {
+			"minFlammability": "0.7"
 		}
 		"liquid": {
 			"liquid": "water",
@@ -45,18 +37,19 @@
         "type": "drawDefault"
       },
       {
-        "type": "drawGlowRegion"
+        "type": "drawGlowRegion",
+        "blending": "additive"
       }
     ]
   },
     "requirements": [
 		{
 		"item": "graphite",
-		"amount": 220
+		"amount": 350
 		},
 		{
 		"item": "lead",
-		"amount": 260
+		"amount": 450
 		},
 		{
 		"item": "silicon",
@@ -64,11 +57,11 @@
 		},
 		{
 		"item": "plastanium",
-		"amount": 160
+		"amount": 180
 		},
 		{
 		"item": "engineer",
-		"amount": 120
+		"amount": 150
 		}
 	],
 	"category": "power",

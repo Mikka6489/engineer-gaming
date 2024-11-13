@@ -1,0 +1,59 @@
+{
+    "type": "GenericCrafter",
+    "name": "fuel forge",
+    "description": "Liquefies coal to oil by using water and power. Taken from Heavy Armaments.",
+    "health": 440,
+    "size": 3,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 60,
+    "itemCapacity": 10,
+    "liquidCapacity" : 60,
+    "updateEffect": "oily",
+	"outputItem": {
+		"item": "engineer",
+		"amount": 1
+	},
+	"drawer": {
+		"type": "drawMulti",
+		"drawers": [
+			{
+			"type": "drawDefault"
+			},
+			{
+			"type": "drawFlame"
+			}
+		]
+	},
+    "consumes": {
+        "power": 1.2,
+ 	"itemExplosive": {
+		"minExplosiveness": "0.2"
+	}
+        "liquid": {
+            "liquid": "water",
+            "amount": 0.4
+        }
+    },
+    "requirements": [
+        {
+            "item": "graphite",
+            "amount": 120
+        },
+        {
+            "item": "titanium",
+            "amount": 135
+        },
+        {
+            "item": "metaglass",
+            "amount": 150
+        },
+        {
+            "item": "plastanium",
+            "amount": 85
+        }
+    ],
+    "category": "crafting",
+    "research": "oil-extractor"
+}
