@@ -2,39 +2,54 @@
 	"type": "ItemTurret",
 	"name": "Autocannon",
 	"description": "An automatic 40mm cannon turret firing APHET rounds. Targets everything but has horrible retargeting speeds and no prediction in exchange for absurd single target damage.",
-	"size": 2,
+	"size": 3,
 	"health": 1450,
-	"reload": 180,
+	"reload": 40,
 	"range": 300,
+	"ammoPerShot": 5,
 	"ammoUseEffect": "casing4",
 	"shootSound": "largeCannon",
 	"shootCone": 1,
 	"rotateSpeed": 2.5,
 	"shake": 2,
+        "recoil": 0,
 	"predictTarget": false,
 	"minWarmup": 0.9,
-	"targetInterval": 60,
-  "shoot": {
-    "type": "ShootMulti",
-    "source": "ShootAlternate",
-    "dest": [
+	"targetInterval": 80,
+  "drawer": {
+    "type": "DrawTurret",
+    "parts": [
       {
-        "type": "ShootBarrel",
-        "shots": 3,
-        "shotDelay": 30,
+        "type": "regionPart",
+        "progress": "recoil",
+        "suffix": "-barrel",
+        "under": "true",
+        "moveY": -4
+      },
+      {
+        "type": "regionPart",
+        "progress": "recoil",
+        "suffix": "-mid",
+        "under": "true",
+        "moveY": -2
+      },
+      {
+        "type": "regionPart",
+        "suffix": "-body",
+        "under": "true"
       }
     ]
   },
 	"ammoTypes": {
-		"thorium": {
+		"engineer": {
 			"type": "BasicBulletType",
-			"damage": 1450,
-			"splashDamage": 350,
-			"splashDamageRadius": 40,
+			"damage": 1100,
+			"splashDamage": 150,
+			"splashDamageRadius": 10,
 			"height": 12,
 			"width": 8,
 			"speed": 20,
-			"lifetime": 40,
+			"lifetime": 20,
 			"ammoMultiplier": 1,
 			"shootEffect": "shootBig",
 			"smokeEffect": "shootBigSmoke",
