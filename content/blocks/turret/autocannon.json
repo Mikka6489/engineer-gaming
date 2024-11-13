@@ -1,0 +1,75 @@
+{
+	"type": "ItemTurret",
+	"name": "Autocannon",
+	"description": "An automatic 40mm cannon turret firing APHET rounds. Targets everything but has horrible retargeting speeds and no prediction in exchange for absurd single target damage.",
+	"size": 2,
+	"health": 1450,
+	"reload": 180,
+	"range": 300,
+	"ammoUseEffect": "casing4",
+	"shootSound": "largeCannon",
+	"shootCone": 1,
+	"rotateSpeed": 2.5,
+	"shake": 2,
+	"predictTarget": false,
+	"minWarmup": 0.9,
+	"targetInterval": 60,
+  "shoot": {
+    "type": "ShootMulti",
+    "source": "ShootAlternate",
+    "dest": [
+      {
+        "type": "ShootBarrel",
+        "shots": 3,
+        "shotDelay": 30,
+      }
+    ]
+  },
+	"ammoTypes": {
+		"thorium": {
+			"type": "BasicBulletType",
+			"damage": 1450,
+			"splashDamage": 350,
+			"splashDamageRadius": 40,
+			"height": 12,
+			"width": 8,
+			"speed": 20,
+			"lifetime": 40,
+			"ammoMultiplier": 1,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+			"hitEffect": "explosion",
+			"knockback": 10,
+			"impact": true,
+			"pierceArmor": true,
+			"incendChance": 0.2,
+			"trailChance": 1,
+			"trailLength": 5
+		}
+	},
+  "consumes": {
+    "coolant": {
+      "amount": 0.4,
+      "optional": true
+    }
+  },
+	"requirements": [{
+			"item": "graphite",
+			"amount": 130
+		},
+		{
+			"item": "titanium",
+			"amount": 100
+		},
+		{
+			"item": "silicon",
+			"amount": 45
+		},
+		{
+			"item": "engineer",
+			"amount": 85
+		}
+	],
+	"category": "turret",
+	"research": "engineer-creator"
+}
