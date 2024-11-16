@@ -1,0 +1,81 @@
+{
+	"type": "ItemTurret",
+	"name": "Sentry",
+	"description": "A Single barrel machine gun of texan invention, deals heavy knockback.",
+	"size": 2,
+	"health": 450,
+	"reload": 12,
+	"range": 220,
+        "inaccuracy": 2,
+        "recoil": 1,
+	"shootX": -1.75,
+	"shootY": 9,
+	"shootSound": "pew",
+	"rotateSpeed": 16,
+	"ammoTypes": {
+		"engineer": {
+			"type": "BasicBulletType",
+			"damage": 84,
+			"height": 8,
+			"width": 6,
+			"speed": 5,
+			"lifetime": 50,
+			"knockback": 5,
+			"homingPower": 0.4,
+			"ammoMultiplier": 4,
+			"impact": "true",
+			"sprite": "missile",
+			"smokeEffect": "shootSmallSmoke"
+		},
+		"titanium": {
+			"type": "BasicBulletType",
+			"damage": 60,
+			"height": 8,
+			"width": 6,
+			"speed": 5,
+			"lifetime": 50,
+			"knockback": 5,
+			"ammoMultiplier": 3,
+                        "reloadMultiplier": 1.3,
+			"impact": "true",
+			"smokeEffect": "shootSmallSmoke"
+		},
+		"scrap": {
+			"type": "BasicBulletType",
+			"damage": 45,
+			"height": 8,
+			"width": 6,
+			"speed": 5,
+			"lifetime": 50,
+			"knockback": 5,
+			"ammoMultiplier": 2,
+			"impact": "true",
+			"smokeEffect": "shootSmallSmoke"
+		}
+	},
+	"consumes": {
+		"coolant": {
+			"amount": 0.2,
+			"optional": true
+		}
+	},
+	"requirements": [{
+			"item": "copper",
+			"amount": 130
+		},
+		{
+			"item": "titanium",
+			"amount": 100
+		},
+		{
+			"item": "silicon",
+			"amount": 75
+		},
+		{
+			"item": "engineer",
+			"amount": 85
+		}
+	],
+	"category": "turret",
+	"research": "engineer-creator"
+}

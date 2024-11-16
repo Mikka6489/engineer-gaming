@@ -3,6 +3,10 @@
   "author": "Mikka & Westycj",
   "description": "this mod contains wips, unpolished blocks and random crap like new conveyors, turrets and resources.",
   "subtitle": "Take it like a man, shorty.",
-  "version": 2.1,
+  "version": 2.2,
+  "softDependencies": [
+    "obamium-mod",
+    "jarate-mod"
+  ],
   "minGameVersion": "145"
 }

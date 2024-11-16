@@ -5,13 +5,13 @@
 	"size": 2,
 	"outputItem": {
 		"item": "scrap",
-		"amount": 1
+		"amount": 2
 	},
 	"hasPower": true,
 	"hasItems": true,
         "buildCostMultiplier": 0.3,
 	"itemCapacity": 10,
-	"craftTime": 30,
+	"craftTime": 60,
 	"updateEffect": "smeltsmoke",
 	"drawer": {
 		"type": "drawMulti",
@@ -29,11 +29,11 @@
 		"items": {
 			"items": [{
 					"item": "sand",
-					"amount": 3
+					"amount": 5
 				},
 				{
 					"item": "copper",
-					"amount": 2
+					"amount": 3
 				}
 			]
 		}

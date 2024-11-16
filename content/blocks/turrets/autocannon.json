@@ -1,0 +1,69 @@
+{
+	"name": "Autocannon",
+	"description": "An automatic 40mm cannon turret firing APHET rounds. Targets everything but has horrible retargeting speeds and no prediction in exchange for absurd single target damage.",
+	"size": 3,
+	"health": 1450,
+	"reload": 40,
+	"range": 300,
+        "cooldownTime": 60,
+        "coolantMultiplier": 2.5,
+	"ammoPerShot": 5,
+	"ammoUseEffect": "casing4",
+	"shootSound": "largeCannon",
+	"shootCone": 1,
+	"rotateSpeed": 2.5,
+	"shake": 2,
+        "recoil": 0,
+	"predictTarget": false,
+	"minWarmup": 0.9,
+	"targetInterval": 80,
+  "drawer": {
+    "type": "DrawTurret",
+    "parts": [
+      {
+        "type": "regionPart",
+        "progress": "recoil",
+        "suffix": "-barrel",
+        "under": "true",
+        "moveY": -4
+      },
+      {
+        "type": "regionPart",
+        "progress": "recoil",
+        "suffix": "-mid",
+        "under": "true",
+        "moveY": -2
+      },
+      {
+        "type": "regionPart",
+        "suffix": "-body",
+        "under": "true"
+      }
+    ]
+  },
+  "consumes": {
+    "coolant": {
+      "amount": 0.4,
+      "optional": true
+    }
+  },
+	"requirements": [{
+			"item": "graphite",
+			"amount": 225
+		},
+		{
+			"item": "silicon",
+			"amount": 135
+		},
+		{
+			"item": "plastanium",
+			"amount": 100
+		},
+		{
+			"item": "engineer",
+			"amount": 135
+		}
+	],
+	"category": "turret",
+	"research": "engineer-creator"
+}
