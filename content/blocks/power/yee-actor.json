@@ -1,6 +1,6 @@
 {
 	"type": "ImpactReactor",
-	"name": "Heat Reactor",
+	"name": "Slag Reactor",
 	"description": "Consumes slag to generate power. Needs connection to power grid to function.",
 	"health": 480,
 	"size": 3,
@@ -37,7 +37,7 @@
 		"power": 2,
 		"liquid": {
 			"liquid": "slag",
-			"amount": 0.4
+			"amount": 0.375
 		}
 	},
     "requirements": [

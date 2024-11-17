@@ -2,7 +2,7 @@
   "name": "Hexite",
   "description": "A form of pure Hexite, an unstable, charged and highly versatile material for use in item/liquid transport, and weapons manufacturing.",
   "hardness": 1,
-  "cost": 4,
+  "cost": 3,
   "color": "ef806c",
   "charge": "0.5",
   "radioactivity": "0.15",

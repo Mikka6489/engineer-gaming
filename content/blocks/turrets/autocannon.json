@@ -4,7 +4,7 @@
 	"size": 3,
 	"health": 1450,
 	"reload": 40,
-	"range": 300,
+	"range": 330,
         "cooldownTime": 60,
         "coolantMultiplier": 2.5,
 	"ammoPerShot": 5,
