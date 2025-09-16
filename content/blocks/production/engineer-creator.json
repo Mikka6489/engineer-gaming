@@ -1,7 +1,7 @@
 {
 	"type": "GenericCrafter",
 	"name": "Hexite Furnace",
-	"description": "Makes the purest form of Hexite ever conceived.",
+	"description": "Forges the purest form of Hexite ever conceived.",
 	"size": 3,
 	"outputItem": {
 		"item": "engineer",

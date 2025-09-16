@@ -1,7 +1,7 @@
 {
 	"type": "GenericCrafter",
 	"name": "Scrap Synthesizer",
-	"description": "Combines trace materials from sand into copper for further processing.",
+	"description": "Combines trace materials from sand and copper for further processing.",
 	"size": 2,
 	"outputItem": {
 		"item": "scrap",

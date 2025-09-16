@@ -1,6 +1,7 @@
 {
 	"name": "Autocannon",
-	"description": "An automatic 40mm cannon turret firing APHET rounds. Targets everything but has horrible retargeting speeds and no prediction in exchange for absurd single target damage.",
+	"description": "An automatic 40mm cannon turret firing APHET rounds. Targets highest health and has slow retargeting speeds with no movement prediction.",
+	"unitSort": "strongest",
 	"size": 3,
 	"health": 1450,
 	"reload": 40,

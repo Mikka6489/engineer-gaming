@@ -12,19 +12,20 @@ const hexiteshot = extend(BasicBulletType, {
     splashDamage: 150,
     splashDamageRadius: 11.2,
     buildingDamageMultiplier: 0.25,
+    maxDamageFraction: 0.8,
     height: 16,
     width: 10,
     speed: 20,
     lifetime: 20,
     ammoMultiplier: 1,
+    backColor: Color.valueOf("ef806cff"),
+    trailColor: Color.valueOf("ef806cff"),
     shootEffect: Fx.shootBig,
     smokeEffect: Fx.shootBigSmoke,
     hitEffect: Fx.explosion,
-    knockback: 10,
-    impact: true,
     pierceArmor: true,
-    icendChance: 0.2,
-    trailChance: 1,
+    incendChance: 0.2,
+    trailInterval: 0.5,
     trailLength: 5,
 });
 
@@ -33,19 +34,20 @@ const phaseshot = extend(BasicBulletType, {
     splashDamage: 250,
     splashDamageRadius: 18.4,
     buildingDamageMultiplier: 0.25,
+    maxDamageFraction: 0.8,
     height: 16,
     width: 10,
     speed: 20,
     lifetime: 20,
     ammoMultiplier: 2,
+    backColor: Color.valueOf("ffd59eff"),
+    trailColor: Color.valueOf("ffd59eff"),
     shootEffect: Fx.shootBig,
     smokeEffect: Fx.shootBigSmoke,
     hitEffect: Fx.explosion,
-    knockback: 10,
-    impact: true,
     pierceArmor: true,
-    icendChance: 0.2,
-    trailChance: 1,
+    incendChance: 0.2,
+    trailInterval: 0.5,
     trailLength: 5,
 });
 
@@ -54,21 +56,20 @@ const obamiumshot = extend(BasicBulletType, {
     splashDamage: 250,
     splashDamageRadius: 18.4,
     buildingDamageMultiplier: 0.25,
+    maxDamageFraction: 0.8,
     height: 16,
     width: 10,
     speed: 20,
     lifetime: 20,
     ammoMultiplier: 1,
-    backColor: Color.valueOf("96C185ff"),
-    trailColor: Color.valueOf("96C185ff"),
+    backColor: Color.valueOf("96c185ff"),
+    trailColor: Color.valueOf("96c185ff"),
     shootEffect: Fx.shootBig,
     smokeEffect: Fx.shootBigSmoke,
     hitEffect: Fx.explosion,
-    knockback: 10,
-    impact: true,
     pierceArmor: true,
-    icendChance: 0.2,
-    trailChance: 1,
+    incendChance: 0.2,
+    trailInterval: 0.5,
     trailLength: 5,
 });
 
@@ -77,6 +78,7 @@ const jarateshot = extend(BasicBulletType, {
     splashDamage: 150,
     splashDamageRadius: 25.6,
     buildingDamageMultiplier: 0.25,
+    maxDamageFraction: 0.8,
     height: 16,
     width: 10,
     speed: 20,
@@ -87,11 +89,9 @@ const jarateshot = extend(BasicBulletType, {
     shootEffect: Fx.shootBig,
     smokeEffect: Fx.shootBigSmoke,
     hitEffect: Fx.explosion,
-    knockback: 10,
-    impact: true,
     pierceArmor: true,
-    icendChance: 0.2,
-    trailChance: 1,
+    incendChance: 0.2,
+    trailInterval: 0.5,
     trailLength: 5,
 });
 
@@ -105,7 +105,7 @@ if (omvers == null) {
         );
     } else {
         Log.info("Engineer Gaming - Obamium Mod not loaded");
-        Log.info("Engineer Daming detected Jarate Mod at " + jmvers);
+        Log.info("Engineer Gaming detected Jarate Mod at " + jmvers);
         const jarate = Vars.content.item("jarate-mod-jarate");
         autocannon.ammo(
             jarate, jarateshot,
@@ -115,7 +115,7 @@ if (omvers == null) {
     }
 } else {
     if (jmvers == null) {
-        Log.info("Engineer Daming detected Obamium mod at " + omvers);
+        Log.info("Engineer Gaming detected Obamium mod at " + omvers);
         Log.info("Engineer Gaming - Jarate Mod not loaded");
         const obamium = Vars.content.item("obamium-mod-Obamium");
         autocannon.ammo(
@@ -124,8 +124,8 @@ if (omvers == null) {
             phase, phaseshot,
         );
     } else {
-        Log.info("Engineer Daming detected Obamium mod at " + omvers);
-        Log.info("Engineer Daming detected Jarate Mod at " + jmvers);
+        Log.info("Engineer Gaming detected Obamium mod at " + omvers);
+        Log.info("Engineer Gaming detected Jarate Mod at " + jmvers);
         const obamium = Vars.content.item("obamium-mod-Obamium");
         const jarate = Vars.content.item("jarate-mod-jarate");
         autocannon.ammo(
