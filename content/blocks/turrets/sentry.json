@@ -10,7 +10,7 @@
         "recoil": 1,
 	"shootX": -1.75,
 	"shootY": 9,
-	"shootSound": "pew",
+	"shootSound": "shootElude",
 	"rotateSpeed": 16,
 	"ammoTypes": {
 		"engineer": {

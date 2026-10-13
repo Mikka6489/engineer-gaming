@@ -1,0 +1,114 @@
+{
+	"type": "ItemTurret",
+	"name": "Split",
+	"description": "An automatic 40mm cannon turret firing APHET rounds. Targets highest health and has slow retargeting speeds with no movement prediction.",
+	"unitSort": "strongest",
+	"size": 3,
+	"health": 1450,
+	"reload": 40,
+	"range": 330,
+        "cooldownTime": 60,
+        "coolantMultiplier": 2.5,
+	"ammoPerShot": 5,
+	"ammoUseEffect": "casing4",
+	"shootSound": "shootConquer",
+	"shootCone": 1,
+	"rotateSpeed": 2.5,
+	"shake": 2,
+        "recoil": 0,
+	"predictTarget": false,
+	"minWarmup": 0.9,
+	"targetInterval": 80,
+	"ammoTypes": {
+		"engineer": {
+			"type": "BasicBulletType",
+			"damage": 62,
+			"backColor": "ef806c",
+			"height": 8,
+			"width": 6,
+			"speed": 5,
+			"lifetime": 50,
+			"knockback": 4,
+			"homingPower": 0.3,
+			"ammoMultiplier": 4,
+			"impact": "true",
+			"sprite": "missile",
+			"smokeEffect": "shootSmallSmoke"
+		},
+		"titanium": {
+			"type": "BasicBulletType",
+			"damage": 45,
+			"backColor": "919fe7",
+			"height": 8,
+			"width": 6,
+			"speed": 5,
+			"lifetime": 50,
+			"knockback": 3,
+			"ammoMultiplier": 2,
+                        "reloadMultiplier": 1.3,
+			"impact": "true",
+			"smokeEffect": "shootSmallSmoke"
+		},
+		"scrap": {
+			"type": "BasicBulletType",
+			"damage": 28,
+			"height": 8,
+			"width": 6,
+			"speed": 5,
+			"lifetime": 50,
+			"knockback": 4,
+			"ammoMultiplier": 2,
+			"impact": "true",
+			"smokeEffect": "shootSmallSmoke"
+		}
+	},
+  "drawer": {
+    "type": "DrawTurret",
+    "parts": [
+      {
+        "type": "regionPart",
+        "progress": "recoil",
+        "suffix": "-barrel",
+        "under": "true",
+        "moveY": -4
+      },
+      {
+        "type": "regionPart",
+        "progress": "recoil",
+        "suffix": "-mid",
+        "under": "true",
+        "moveY": -2
+      },
+      {
+        "type": "regionPart",
+        "suffix": "-body",
+        "under": "true"
+      }
+    ]
+  },
+  "consumes": {
+    "coolant": {
+      "amount": 0.4,
+      "optional": true
+    }
+  },
+	"requirements": [{
+			"item": "graphite",
+			"amount": 225
+		},
+		{
+			"item": "silicon",
+			"amount": 135
+		},
+		{
+			"item": "plastanium",
+			"amount": 100
+		},
+		{
+			"item": "engineer",
+			"amount": 135
+		}
+	],
+	"category": "turret",
+	"research": "breach"
+}
